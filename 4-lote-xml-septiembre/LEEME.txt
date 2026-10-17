@@ -1,0 +1,44 @@
+LOTE DE XML DE PRÁCTICA · Taller "Empieza aquí"
+================================================
+
+Qué es esto
+-----------
+Son 18 CFDI de gastos de septiembre de 2026 de una empresa inventada,
+Distribuidora Cerro Azul, persona moral del régimen general en Querétaro.
+Son los XML con los que practicamos en el taller: los subes a Claude, los
+conviertes en una tabla de Excel y los revisas.
+
+Todo es inventado
+-----------------
+Las empresas, las personas, los RFC, los folios, los UUID y los sellos se
+armaron para dar clase. Ninguno es de un contribuyente real y ninguno tiene
+validez fiscal. Cada archivo lo dice en sus primeros renglones.
+
+Las claves de producto y de unidad son ilustrativas: se eligieron para que el
+lote se parezca a uno real, no para servir de catálogo.
+
+Cómo se usa en el taller
+------------------------
+1. Descomprime esta carpeta en tu computadora.
+2. En Claude, dentro de tu proyecto, abre un chat nuevo.
+3. Arrastra los 18 archivos .xml al chat (o usa el clip para adjuntarlos).
+4. Pega el prompt que te paso en el taller. Está en el archivo
+   "1-prompts-del-taller.pdf" del kit.
+
+Si Claude no te acepta los archivos .xml, sube en su lugar
+"4-lote-en-un-solo-archivo.txt", que está junto a esta carpeta: son los
+mismos 18 XML, uno detrás de otro, en un solo archivo de texto.
+
+Qué hay adentro
+---------------
+No te lo digo: encontrarlo es el ejercicio. Lo que sí te adelanto es que un
+lote real casi nunca viene limpio, y este tampoco.
+
+Para practicar después
+----------------------
+Con este mismo lote puedes repetir el ejercicio las veces que quieras. Cuando
+lo hagas con XML de tus clientes, acuérdate de la regla del taller: si trae
+RFC y nombre, no se pega en cualquier chat. Revisa antes
+"3-que-nunca-se-sube.pdf".
+
+soycontador.ai

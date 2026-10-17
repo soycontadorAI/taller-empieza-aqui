@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- CFDI FICTICIO para el taller "Empieza aquí" de soycontador.ai. Datos inventados, sin validez fiscal. -->
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/4 http://www.sat.gob.mx/sitio_internet/cfd/4/cfdv40.xsd" Version="4.0" Serie="R" Folio="109" Fecha="2026-09-01T10:05:32" Sello="EVm6oDyAJjdFW9hfaiVp5mWvL2bSAwHNT8oc45niQBX9n3loIxbgVUWJTnN3jsgH6b2bo3F7u6dTX5K71YrAxj+k6KE5vJ309DqwAkBQ6OMRMuoJXRQEHjs+1drH7ZYJ/5ZSr53PInR1EFWN9dEr5L6xlVLitVOSjePZmT5OPb50edox961+xaWbTo8qERZMX2OwX7+LIqYOXB1QiwIn9m9s6/91dBNfQrW6Zj7T13Fnz86VyugDlcvLqUEOM/jVHkoWb73Qs+9UPg5lT1eS7tixKS6+ImV6HvhW0xLr7tzRe93W8xrrxVuDNTw/qfSGdPdcHvxCXIrDcSNzuU7GHw==" FormaPago="03" NoCertificado="64753906406988466913" Certificado="RFmtFq87OV/uL3qAsUPf8H0YIeiqTCHcFTq8DdOiwnUmbrsI0EYxyioniJmK7FKgmUODXv4nesH73J2uzkJjDuuiWmXmK8zCD+3tmP+vqDlQ/mX9f1Xt7geDHyyJ6JPuK7GbdyOobHyeQMNE8DtzVIARIr+XhSrXRf4ni4AufuEWw34QKebLbBx06jF35em/AJtpn1odfqbe7ZtYNKc7X0rwAZrY5tYMzqffUkfzTQYkMZo8GOjzdO98p/SYgLPTZV7Vyh/mLRz8Bt6OHGoDwuLJE20Eb03W/eGOJSKh0yho+kg+CHDP9v56j14obW2azehqhRsfYBQssDJL0vUUxL3nTDmnvzLdNNL+Ev7ZpPLtqFwz2EBz4f9rUulifsGE+6Mv0dDsQSm2NVveOhHWDPAfsk4AtNque2GeDysz4xSqe0YpneKKqWkplR7JJcEOdR6PXv1QC5gWucwfbTrxi3WGF9h/qVIdhVN5QoeajAP9TDDE6XrProyo1DHhIT0guWTULHDiAcEAt8nGZyWissWR2FQkZMtMdkDrwdV6aLE4auLLTCV7FgRY0pPKPjomjIw1dnXBTGUM5ibNwmnupKduQXyGpxkvp+NtXihHYwt2EwJumowHRFYptI+m3QEvdyj/Q+O+bC2xF7wSk03+ZCKYvNGLucftXWZjeOf6cgMoxhN9OcflX0ZRos5G3p/KFPV/EtNYKz+3oAQ6yQeGCvqf1pPNqdRPxEeDGxVgIcIJTDExvsvXAaw7HCQdlBBonQryAGXqtS//3NTZFfVQP9Zgf/HfK4P31Fw43EyPtPe0zd8fcOW6XWd6SCqcVUQhn20+AIMCoks0C3/Ok3KXk4gETRpwabCIHnaCMlqTLwaN0ua0iaW1bvVM5Ct5AefBGMDw4emq268V/e05YzeEEHHDclZT2nr4fNkm99K9e1qB13MMR6PvOIU+3Ahxdw5dDKS7dsZNVcMwE0B653Inu7Uz/IornCPL8GAYJjvpBB8uWFNv5Op4pBUDLkDInMCw2W9PgZiLHKoqLfkssfkdi1b3H5l0Se4WYEWdieEZfZMUa1tOQeT2+jaI6siTsSIdH7M32GuwOI89UV4Vj+CC0Ysc/UcPKu9u0jVYV1LOJpTIaUDuHiDsKBktCzn4w26XCBRfoQVeHfSZqLTCgnkaoRsCaNdTjeRLcXD3+i4RyT4TFKbC" SubTotal="18000.00" Moneda="MXN" Total="17160.00" TipoDeComprobante="I" Exportacion="01" MetodoPago="PUE" LugarExpedicion="76030">
+  <cfdi:Emisor Rfc="MATR680412HN8" Nombre="ROSA ELENA MARQUEZ TOVAR" RegimenFiscal="606"/>
+  <cfdi:Receptor Rfc="DCA180305KQ6" Nombre="DISTRIBUIDORA CERRO AZUL" DomicilioFiscalReceptor="76000" RegimenFiscalReceptor="601" UsoCFDI="G03"/>
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="80131502" Cantidad="1" ClaveUnidad="E48" Unidad="Unidad de servicio" Descripcion="Renta de oficina y bodega, septiembre 2026" ValorUnitario="18000.00" Importe="18000.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="18000.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="2880.00"/>
+        </cfdi:Traslados>
+        <cfdi:Retenciones>
+          <cfdi:Retencion Base="18000.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.106667" Importe="1920.00"/>
+          <cfdi:Retencion Base="18000.00" Impuesto="001" TipoFactor="Tasa" TasaOCuota="0.100000" Importe="1800.00"/>
+        </cfdi:Retenciones>
+      </cfdi:Impuestos>
+      <cfdi:CuentaPredial Numero="140101001023"/>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosRetenidos="3720.00" TotalImpuestosTrasladados="2880.00">
+    <cfdi:Retenciones>
+      <cfdi:Retencion Impuesto="001" Importe="1800.00"/>
+      <cfdi:Retencion Impuesto="002" Importe="1920.00"/>
+    </cfdi:Retenciones>
+    <cfdi:Traslados>
+      <cfdi:Traslado Base="18000.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="2880.00"/>
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" UUID="05D64A5E-CDF0-43F3-9035-D577A6A3C72A" FechaTimbrado="2026-09-01T10:07:47" RfcProvCertif="PFT150818RT4" SelloCFD="EVm6oDyAJjdFW9hfaiVp5mWvL2bSAwHNT8oc45niQBX9n3loIxbgVUWJTnN3jsgH6b2bo3F7u6dTX5K71YrAxj+k6KE5vJ309DqwAkBQ6OMRMuoJXRQEHjs+1drH7ZYJ/5ZSr53PInR1EFWN9dEr5L6xlVLitVOSjePZmT5OPb50edox961+xaWbTo8qERZMX2OwX7+LIqYOXB1QiwIn9m9s6/91dBNfQrW6Zj7T13Fnz86VyugDlcvLqUEOM/jVHkoWb73Qs+9UPg5lT1eS7tixKS6+ImV6HvhW0xLr7tzRe93W8xrrxVuDNTw/qfSGdPdcHvxCXIrDcSNzuU7GHw==" NoCertificadoSAT="17789002380077772290" SelloSAT="hdySKIJTLZ0c4+oRWMi7HJSUu41VtTVleMrPmiEeTL1CECVjhhe2NLRLFOiTQ/NLghwBFMSwty4vQ7OFy9MZ3lF3r8ORkQdAmZ6XW51f1QB72dUYA/hUKzMHYiepwAnQd1MMwyF9THJ3p27e670gTGQnTg6FkXNy34qO124TN+dDHBKgDxJX3RbssJPlDWJEwK/A79MLnaIbS1/B9/gEGU86+n2m4qkSECiTnnDkrPgTi0ih2ujKF+laYZFutbQJRsvUq0j1XVMEqzb8WaCIBvWE7GD21mq4J6XCTUBNFUPFMS5krLCIh89MU0zTzKOsCW7EK1Yd8lYDwk9/+XKjaQ=="/>
+  </cfdi:Complemento>
+</cfdi:Comprobante>

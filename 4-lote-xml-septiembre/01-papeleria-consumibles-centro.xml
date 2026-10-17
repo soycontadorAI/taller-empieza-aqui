@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- CFDI FICTICIO para el taller "Empieza aquí" de soycontador.ai. Datos inventados, sin validez fiscal. -->
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/4 http://www.sat.gob.mx/sitio_internet/cfd/4/cfdv40.xsd" Version="4.0" Serie="A" Folio="4817" Fecha="2026-09-02T09:41:17" Sello="RwdwLqkffOTLhvCHhcCO8Y3bVJYteuz6g2WMkBYttS8pQFDnc8OQIrXZAVP6LcwDjhXIXFJhgld+5vhhxCo9TlJaZsxSbU1dEiPGypIs15G45+5aavhgCUmgS04oTu78bcSt+HYUJ7BrAUp9xH3oy/taIBbEH2ItVxemfNgmDjKef+vy+CcMYBLcjP0T4y1zsGWCExw5wdfenEvPgIjlB+EBoBo2GQKT5B+B6O5xdU87gll/XctlBXCxeV5p/ZdMqR0Din6xOSUklI4zc6bDSQTwlgwKw8Cxm4y4cAZKvXNmzAbBJA9hoItbedw7kzJ5hRvE81rYhVxrdZNtXXp8nw==" FormaPago="03" NoCertificado="90173018212956137651" Certificado="3Hj2eJoggVqGi3OFAnKDSaQWBZLFhX5aSVu8XcxwhmORYLp7XtvnHuoi4cgxToIcHoPJbmxXMHVDEnb+komWine+sGz07GTFZpl6RdXnbyxsOh/eVT+Zwoz9dKbs9485yTvWw2m3q7XBuk3o4Sxn/mpmuqw+b1/lilJtWuue3hF0SuaQY2J2Fjp7oK6ADnQJ0WIFb3a2WIc9q8r9BjWMYNag420YbYQYKz/P0tFprVd39hGhLo9uu1ByHk57N32FyUbXeaCLo6QI1IUMldLseFhpOJSKrsmh1Q/BsTTnHrm2Xt/r2flmGSHzz2b0UVNbuZ3zOEpLK6nEn0QZjc8QFmsXMzY1bdJhaaXlXY0q6r5ssqsU1wXmJg/0GNoAl3vja0Jfe9QgkbjfXYI6VWTIVkgpI2d+GPdpXEK3G+qSJo4E2PQZGGGq+XUNyuYw4jSwTPOM2yK7z1+xqlXQFa3p6CAPf6TgjUvSmAzGWl1fKdk/R728dfBrkOrYdTn8giPVtAYKMNKIVxTOnVa06Jodx8aG5AQLJK43FjMxxIBMsgrYFMmU2smqPF7cd4vRNKR8SGL+fnOYKebc+NbQZ76Skad0p3KqZHbSZAZjKEjnPfqB34glfQIt/4rXcXE1lGzmPZO+ze3PBSoBP7zfNfFKqUaB9t2td9hIPKk6wjuT4Ex7QQOlCWA0q9JEho0JUiLWdrLAlytMaStMCtIqZY9syboanXzMd2DMxD3lbtv7Eu/foTiNiFAcNS3+WpSeUqFDbaqQf/h9OrGK8eshk27Q5+5R5kcnDw/k37NSfOFY90Jt8v+5XpqLNxSw9w67Hb2c233TA8PkV9UaVMV/V3MTQUT0acXzn1WXB5uR1hR7RLL5NKK2W4HXCoM4xuOC/qgDuyKhOOxhzAX7VZyqpaS0kZilpmz+aV0nYR472kXC6B/JJblh2mVwEorqTIeLj8wfbQQRD8Sg+c0f8Z0DQ+5fitupr149qRAyY0MFdK6ZY0iOuLY1aYl7w/XpXkaG6FAnqATzKyKgbxxrp+I3M2qTB0IFzEQGJhBTgJaXb0soawsBqJnQ4WUMocs4GtRCTQMd5FbC4oHZpc94nMbDPs6cXBbNbY7fJW3l+jt/me4YwF3GmmC9FpiO2WrIDhCYLkz2PDTynpsM7Qfskd3Z9p7JVQxInUiuJmuXlO2E2leAJdr28nmC" SubTotal="3391.20" Moneda="MXN" Total="3933.79" TipoDeComprobante="I" Exportacion="01" MetodoPago="PUE" LugarExpedicion="76000">
+  <cfdi:Emisor Rfc="PCC120415HM7" Nombre="PAPELERIA Y CONSUMIBLES DEL CENTRO" RegimenFiscal="601"/>
+  <cfdi:Receptor Rfc="DCA180305KQ6" Nombre="DISTRIBUIDORA CERRO AZUL" DomicilioFiscalReceptor="76000" RegimenFiscalReceptor="601" UsoCFDI="G03"/>
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="14111507" Cantidad="4" ClaveUnidad="H87" Unidad="Pieza" Descripcion="Caja de papel bond tamaño carta, 10 paquetes de 500 hojas" ValorUnitario="612.50" Importe="2450.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="2450.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="392.00"/>
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="44122011" Cantidad="3" ClaveUnidad="H87" Unidad="Pieza" Descripcion="Fólder tamaño carta, caja con 100" ValorUnitario="189.90" Importe="569.70" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="569.70" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="91.15"/>
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="44121701" Cantidad="5" ClaveUnidad="H87" Unidad="Pieza" Descripcion="Bolígrafo tinta azul, caja con 12" ValorUnitario="74.30" Importe="371.50" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="371.50" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="59.44"/>
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="542.59">
+    <cfdi:Traslados>
+      <cfdi:Traslado Base="3391.20" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="542.59"/>
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" UUID="4F5F498E-8E61-47A7-A18E-2F13420F1069" FechaTimbrado="2026-09-02T09:42:56" RfcProvCertif="PFT150818RT4" SelloCFD="RwdwLqkffOTLhvCHhcCO8Y3bVJYteuz6g2WMkBYttS8pQFDnc8OQIrXZAVP6LcwDjhXIXFJhgld+5vhhxCo9TlJaZsxSbU1dEiPGypIs15G45+5aavhgCUmgS04oTu78bcSt+HYUJ7BrAUp9xH3oy/taIBbEH2ItVxemfNgmDjKef+vy+CcMYBLcjP0T4y1zsGWCExw5wdfenEvPgIjlB+EBoBo2GQKT5B+B6O5xdU87gll/XctlBXCxeV5p/ZdMqR0Din6xOSUklI4zc6bDSQTwlgwKw8Cxm4y4cAZKvXNmzAbBJA9hoItbedw7kzJ5hRvE81rYhVxrdZNtXXp8nw==" NoCertificadoSAT="56385817027612814929" SelloSAT="nbnyufLNlPKoLRR0QGI33yn8aeFiITbRo3DpleILppm9bOY9JsAg4KaoCQqU3IiRZA2GvhvaU5cV4qMao9hBcSzkAtwy4EZ8OuG+O/c4u1KCoSHczdiQ7GDiCpBOwgpsLzbWsxC8cHeRlSMnm5MixfTDpdD4D+NMyPvkpm5vtpyA+Y6PzYmknb/boqtvDJiWBdL2W+8NmS5Iq3deHHzhy0P2JC5AgVJRHfSkZWpDMKBNJ9NyuolBxgS+xwik3V11SJZF/dj1nZOuSJrBoCRMXeqfDPbaX7JBYtGRpmkAu5eUvPL1z5CoQF2JnvlKeIlW810FqahPAxTfs0kbrtFcVg=="/>
+  </cfdi:Complemento>
+</cfdi:Comprobante>

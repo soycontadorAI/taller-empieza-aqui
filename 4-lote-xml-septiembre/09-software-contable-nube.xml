@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- CFDI FICTICIO para el taller "Empieza aquí" de soycontador.ai. Datos inventados, sin validez fiscal. -->
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/4 http://www.sat.gob.mx/sitio_internet/cfd/4/cfdv40.xsd" Version="4.0" Serie="SC" Folio="60318" Fecha="2026-09-01T06:00:12" Sello="B95VbnhY8DFewBETI7V/69/avdMl4ozyBNu9kbf9JnDYjwG7g30YLCskDdWdpuWJWIirURbol96Z/ygw5k8PI78Bt2RwhCBh8pOH0O/YO2LYzwDxjqRjhOY3YqTfVy+XyeFTGypAJcNcuI7FlXmSmZoQbqM9edB/DIJrZH7/YKgXJwgEXiAslyOTn2Xv8fWg4+4izksebSDmnpT/DYsYqlfsWbc1xehOjWHU0zt0SV86xlmHLegitQXhucHYMdLqyYUtRmaPvgdCgru1eWarCL19bKskVtLwd0Umhe75/Rz+vFFQkxAuxtVVL90JAr7PmlbNXF6HrQ6ao3z9rO+rxw==" FormaPago="28" NoCertificado="51953364360291183911" Certificado="8H+03VMi22+Rv8no6CM4c/kP/yHOXiU8KOl+0V8BozFC2el+W5RPc+YY/Afh14fcKWiHvbSnw8nB8XKf+r4UXzjQcfcY6vlkVbC2p29JNZHW3D8Tj1NezmdAMaaqQcfRZJ/wV62Q93mey+kgf8hkOslVSBEf/BKjNRnAtH4kHkhA/3a+kGxolA8pgDq/+btmU5tHvDRG9IkaBbvar7TqpBf+uo402qqY+V7Jtb0Rfz8nuYiTfrXpDCCL05UFoUh9DTDYUUoRpwu9Cf4/kzTYN8PV+bgsoufLZtS8Sra8dlceoe/QIZhasTp6GZM7zuS8zQzbFT9G8+oNHnIL7QImN6nSaUYu2/ZEOcAB/+nVA8VA5q05ruYcsSUHai5wY6msL30agK9bQXXoeeHwORaMWhbfK9xxeP4kQ15N48Cm1geLBqfhXCwA7OtGIWMbNPe59J4QDp7o3Y0GQyD4LLKuGz5DvHP0WU2p4wDRSDLEsGyXzJAjAEhaZW6ojlandtk4AhhUcopJNlpkTS/dOQkLYoVwtBz0ZjBopkFh2Wg3BpvmeQIF2EntJsWFiATGmtVTa0Q81eVCmYi4hC39PdHo8nzw+U20mmz/C82t8cj4ALFgjXpwqNSL0r1hIyhKdCD4DkTfo1cncp9DVR0YkxV7RxBLsTnOluQeRI+rl4wFWv2nsjFG2bgz630Ss5Zps1+0od5p+E4YGRTAH/VC+qFRJNuV35SfHlVqUM2flSlZ3gsqKZ2QXlqSzu6J67LOuhJnkJV1D/Iso4SN9inZzana7EHIigah/zw5XF8iMZoBSDANfgdOnyOdaVEfp468ctwqlCKYgqY1J4qLv2X17Lx8H4AX/rBOXuXGFyNreBaKgwW2K3xtO4vqm6pJPBet0mhoPAWV3isiE+0SkroGEzpEAFjqp69PUak+7ZyHcbr90J7bvctWXGZLZWY4Qh1o7WkWQ6Ombd10fUVQQZ1EUoxii3ZdW3HudQXoAEg7N+XAvM+3Tsof0XS1zSOqvo9IJsIrnhTGGpDcr/usUB5AJhbFFLfCVdxPB3VytO9gaafKxGWKUGwhdC1IqhQaf8R0k/8iAv0kbqqWA8qg0V0NAK2g+8/jenoxeMhsVHjEH2hNFo5n9TbRjsHGo/eWVc1aPDFLKREkNV+JNCxs88+0S93e56brBgDXPIewf2c2hOxOWf9JtDQZ" SubTotal="1890.00" Moneda="MXN" Total="2192.40" TipoDeComprobante="I" Exportacion="01" MetodoPago="PUE" LugarExpedicion="37160">
+  <cfdi:Emisor Rfc="SCN190211QW1" Nombre="SISTEMAS CONTABLES NUBE" RegimenFiscal="601"/>
+  <cfdi:Receptor Rfc="DCA180305KQ6" Nombre="DISTRIBUIDORA CERRO AZUL" DomicilioFiscalReceptor="76000" RegimenFiscalReceptor="601" UsoCFDI="G03"/>
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="81112106" Cantidad="1" ClaveUnidad="E48" Unidad="Unidad de servicio" Descripcion="Suscripción mensual a sistema de facturación e inventarios, plan Pyme" ValorUnitario="1890.00" Importe="1890.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="1890.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="302.40"/>
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="302.40">
+    <cfdi:Traslados>
+      <cfdi:Traslado Base="1890.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="302.40"/>
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" UUID="2F9E361F-7A93-47E4-B5D8-ACDFB60A7D4E" FechaTimbrado="2026-09-01T06:02:55" RfcProvCertif="PFT150818RT4" SelloCFD="B95VbnhY8DFewBETI7V/69/avdMl4ozyBNu9kbf9JnDYjwG7g30YLCskDdWdpuWJWIirURbol96Z/ygw5k8PI78Bt2RwhCBh8pOH0O/YO2LYzwDxjqRjhOY3YqTfVy+XyeFTGypAJcNcuI7FlXmSmZoQbqM9edB/DIJrZH7/YKgXJwgEXiAslyOTn2Xv8fWg4+4izksebSDmnpT/DYsYqlfsWbc1xehOjWHU0zt0SV86xlmHLegitQXhucHYMdLqyYUtRmaPvgdCgru1eWarCL19bKskVtLwd0Umhe75/Rz+vFFQkxAuxtVVL90JAr7PmlbNXF6HrQ6ao3z9rO+rxw==" NoCertificadoSAT="94890431150616166517" SelloSAT="eG98Tr0zqA9sQD8xoDafIuejE0JlJkkEmkEv/SaGEvZs0LuzuO7b60TL+bsSwPThMA0SqSHhC+RBbr2q0KtVYv8+Pu2dMmpx3V6bgT0f1P4HQpSD/ySqOOiFuQ0MfEIQoAOyzpcTENsu1/YaFpeRJ3DO0KIGVnIwj0FBkQDJ+RZUYye5e3fGHYv74OxRdLYUTiVLfE/7AYrBhSXviHWWAUYglIa1eI9tJ9fESJ0FxqGKTpY+WLkuFSU/Vn1plcAdka29X4XeQZyH9JH2BNpwbJexQv6igfwJMF3QQCqX5zBwnp6Zyw/BygXW9d1cmFRbNdXpnzmTpwdGX1CJkOXnpw=="/>
+  </cfdi:Complemento>
+</cfdi:Comprobante>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- CFDI FICTICIO para el taller "Empieza aquí" de soycontador.ai. Datos inventados, sin validez fiscal. -->
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/4 http://www.sat.gob.mx/sitio_internet/cfd/4/cfdv40.xsd" Version="4.0" Serie="H" Folio="352" Fecha="2026-09-08T12:30:10" Sello="VIIXGo/ongzZcWtdDf1XcZlZBUAQ3Pja/CzMsxGJTDiSNdc1qgUeh4iMHhy2Mln4qe1OzTk5LMvRQ+kz3rNeaVixmDWkCBcpINasfOga2trvFi+e6FbbytnoMiPrAD705CtE/6qDe4LIvpne2b0s7UKguVEDvVq6kpfQHhzjGL7QP4kj0g3oEgBlloeysjhyEAYocct8+gamiaR2egRedCdplJwhr9nfgxV4oxnykoYBvBMzbihxiM0gudkw/ixYTYHuLWJybwU4EAeQeYzlYE6ugEMVVJbttQkvj1rn7wqV4vyy6KVJD9PXti95mKq2S6rd1LrbZOJ6F/n+k6V+LA==" FormaPago="03" NoCertificado="87453301941553358454" Certificado="z5wG5Jz6aTtWasBPGhUX28KcH/FJjUBlowdggEjnBdLDU8Y62u6w0j9OB+yXvj8kIKHwqE9d2r7XD9MEoRdBYubGttpnPd1QDwF1XmTnmcLIY0sGUl/jhRP0Vnaf8yVFWguMKHLKT5Dw8XaRHleYobZsC5T8e/apIFjA7FlOXgDOtjApS4Eqw6TndadMxw3LXEpjHHKgNl3TY5HiquS2A0EclG8+HZLycYzd7xxK1gXsm1mM+GQC0iZeoSICWnGI0yOXiMi2yxnynm4I4NaS6J4ZSDL9FK6ReGfI/hzrogl4lTcjRVy0iJmDnqHS/Jl+J2AzOcCcwSB2tzi8LFhKoQKS2df+28TalckTF0j1JyN4Hjt+Sj/fGKk+r4qKNUbhrBO4DxnlbpH7s8v253Y/7NlkrNaR1y26Kx1dcQPHTcUoKU3XqQB5rqkjPIZisXKx9jvbMN11u6MNVkiaat/fI8MzzUq9sgK0kxpHqLxYt0Ag6gKNqr7Wwt0jTrWzKsB+EkA0JW6/U0bZSH/m+rYfhUdgkZUHs4rwhUm/+injWrkpS/rpp3YJdRloPd5tepNYSYNrW06flTaxGmDm2HsDya7Jzb6oYkQ70apS3IcE2IuTDrZ75ls44XNG1S46Un5+uLNX1TiRGs8Zg417asjvrZOiXB+XcmRG6JHfqgZLBPystM0rsQbHlS03jtdCsddYCARsif009E0serLBtD50X6vdGH6jusilxAIz8T+7QFCMIpzXqmEFMRuymG/3s058JaCQeLsDdNfmenj5VIqMAXwyV1tu3EH+edq3dJ1ow7XdOqQgqLnfl0/fqUu7Dh4ghEG3X/BQMFUqpJEoXEDn2SrDiNolFAK+hjwmTMaDVDw/79m3YSGYcjW+J6O9HdpVLcpi7u12+sYU1S7LigZGbgYcRazOOiof+CfAWeIERt1bPNHZ0M6kpKvBZ/7qvjJ4JCHq8lbiffJY/rqLONw9tw095HS0JIShj+mc9zrW1XiupBAOpF3o9PomEyAyW5LxmPSlJuA9DP9zR6upVOghDaFqs43ZUKf+6vxZ7sgz9VMsTv/jbwZ6f0LZBadwauvLSIMiGhfrtLq8kddpQQAShoOq+ZLk8+ScGBF1o2KwjSnhnkbb6w3VyicjqRKu50S31uJ0Q2j6IyNoCnGa8Ns69XOHd8s0THOgoQimNDj1JwXjV73R" SubTotal="8000.00" Moneda="MXN" Total="7626.67" TipoDeComprobante="I" Exportacion="01" MetodoPago="PUE" LugarExpedicion="76040">
+  <cfdi:Emisor Rfc="NISC791103QD0" Nombre="CARLOS ALBERTO NIETO SALINAS" RegimenFiscal="612"/>
+  <cfdi:Receptor Rfc="DCA180305KQ6" Nombre="DISTRIBUIDORA CERRO AZUL" DomicilioFiscalReceptor="76000" RegimenFiscalReceptor="601" UsoCFDI="G03"/>
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="80121704" Cantidad="1" ClaveUnidad="E48" Unidad="Unidad de servicio" Descripcion="Honorarios por revisión de contratos con proveedores" ValorUnitario="8000.00" Importe="8000.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="8000.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="1280.00"/>
+        </cfdi:Traslados>
+        <cfdi:Retenciones>
+          <cfdi:Retencion Base="8000.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.106667" Importe="853.33"/>
+          <cfdi:Retencion Base="8000.00" Impuesto="001" TipoFactor="Tasa" TasaOCuota="0.100000" Importe="800.00"/>
+        </cfdi:Retenciones>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosRetenidos="1653.33" TotalImpuestosTrasladados="1280.00">
+    <cfdi:Retenciones>
+      <cfdi:Retencion Impuesto="001" Importe="800.00"/>
+      <cfdi:Retencion Impuesto="002" Importe="853.33"/>
+    </cfdi:Retenciones>
+    <cfdi:Traslados>
+      <cfdi:Traslado Base="8000.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="1280.00"/>
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" UUID="4C7358B5-15D3-48AC-8D62-EDDCEF0D6645" FechaTimbrado="2026-09-08T12:32:15" RfcProvCertif="PFT150818RT4" SelloCFD="VIIXGo/ongzZcWtdDf1XcZlZBUAQ3Pja/CzMsxGJTDiSNdc1qgUeh4iMHhy2Mln4qe1OzTk5LMvRQ+kz3rNeaVixmDWkCBcpINasfOga2trvFi+e6FbbytnoMiPrAD705CtE/6qDe4LIvpne2b0s7UKguVEDvVq6kpfQHhzjGL7QP4kj0g3oEgBlloeysjhyEAYocct8+gamiaR2egRedCdplJwhr9nfgxV4oxnykoYBvBMzbihxiM0gudkw/ixYTYHuLWJybwU4EAeQeYzlYE6ugEMVVJbttQkvj1rn7wqV4vyy6KVJD9PXti95mKq2S6rd1LrbZOJ6F/n+k6V+LA==" NoCertificadoSAT="95653231353997029015" SelloSAT="SMBX9eoe0QmjEb/L4rxUKFjW1Yj2XUtRZ6qjV+DyI3dSLauxWxiC8pIx0y/lMTLIu1lIfVh47yMSfjIGCd41WUGT7eZDO92aOjYtSDZgmhDy8rSWLPaA66CUhnNbCDSdM+jMeugZI7bF4FHnkb8GbxuNd6iJAwocami8SoUtaM+2VajWmbnDyXgOJytCLaqYEjaIg4zItPmP8e1THz5nnCMPZQ+jySk/GwrMNityhbCjtPSTqMJqtTPdH9mUwWcjXB+bR7Ixa1UNKK1/PPGcwQKzYuERVdwpTK/xzeD0WFjCD+/Wy3oYvmJwWwJtEaa+h6CNLuiIV/5ZDVtDiQ0LLw=="/>
+  </cfdi:Complemento>
+</cfdi:Comprobante>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- CFDI FICTICIO para el taller "Empieza aquí" de soycontador.ai. Datos inventados, sin validez fiscal. -->
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/4 http://www.sat.gob.mx/sitio_internet/cfd/4/cfdv40.xsd" Version="4.0" Serie="LA" Folio="5602" Fecha="2026-09-21T10:11:58" Sello="IQUFmLUDVPbQyUPpA6Tfwmuuvu6ObvQ4AFVihCVsHvtrDvZEw2xLWOYURIqE6WFsOIWPT3ddlqSQDCOUlkkvMzSJgabc9TGCKoKIj2vujnhcR5qnFmPATISdsVK580YCuSfWdWd40SJ+eIblXeQ1A2JQPGV/KJiYtyljGZYVJYnk0Uc+WNwBrzEYTx+qbxBaDLLkzrQZEFySU10i54LvFp0RXMTeHDB7g2Um7nUtOAUvcDF2sgoN/CoZm+jU5vd0atHMdhE33KV8clAWNnNUxxRsBjTFvCTcg6sMfmaELFyBwbZobx0jYDeX67RDPBprHdfCdgHIBXXa8B7cYO/o+w==" FormaPago="03" NoCertificado="30985112282607295410" Certificado="mBkdRN3zEAtgNh6EVvExJrmSrLGmscMSqB/woPzTY5zDACPus9agaSDFfVyP1N66gpTsAQKxv/VOSap7HDzsNCHhZt61BLTj3xqm8oeT9K2UUthVwBGHApuAT6/slhLi0GY0c2aiw7G5iagMU+oeJCSkxVM8lVxVlpLFV0t8bbwOvw5DQqN7Oudc2mO+ZksFA7qAazm7Olcyw+0441oIblJXJ8ln3NNlxNludQbq97jtFuS01isWkyVzTRyDHxxjNibuEF/fEZgNYPfO2Th1kPRm5Nv5ZsuvpYHCQufBU0ES+Kpdq9WezrdLLm5DQKmrKE47rSHhF3VnY8lFYg17hhGiY4xmMml0Uwk4dzBoKtcssc341G+yYiPQZjAU27zL48MrkJbqiugAN5aGEfiTpJ6Jh5GPFbiMRhGCv0E6y5g9Q4/8JOyA0Cuy0lBlPMD9J3F33EaQy8chod/ZPk1wwJb2wTKeJCDICQVi8PgG9xyNeVcjf6hwwXm+krF/M5rmI4AlugdVeu/fgNzuaMgy+F0gMXO23MP6ULUKuYi855DMazUPvyyxM8RM22pb0A/6NoGDQBMzUSElEI5xd+0BfbXEv4+O6vnV2msdF2TlskjnbyLlS4SAtmjyBCJPyhz3FLLRYnwXfwuLm/YCYPDG3jhGMUj1EefJ43EK7xI8rGeV9a74jr3FHX/vLg/FA5UhROyoOgkJAZ8aj3/4sf+THAWIKRPQUUgmHSMXwwvS8rGTAJP9TztNdCnvHpM/kZler81d6NOtVM9mwiQtshQL9xG+rL7tfqABzMLiOJin3uf4XQB+K9dF11jApNlUhGNkdPyujOeyWFMrHwFgsHnAbrTwoKo9a4zEq8oUyE07lLRhUSYnyHfHcWezYGyYfXvqxipEta2GMiWwhdy4b/0Cn7zmM3ZgJTZPMZgrgApNt14qQ7qzvsgADUgfgAQ2jVsbWqdOMqtM1165MAKkOdFKriwOINf9Np7iTHMvrwy842cN81mOruaS+EbvT1IHAIRr7h5V458MShuYHHwEzCWuONkfYNaW6PLz3VDobhaEUvfw5BnU6d0UfOCtmMWu9Io7SlMsiULwfVDivynjg1A3MdzhsAairLu/CcIg4IGlRqp8CYRA4mQg1NfxT4jWVc9EEUE73ywU6BYMH+qA/QdCChmdmXAWXcBmPagYpgGeUhGi8Yhu" SubTotal="2915.00" Moneda="MXN" Total="3381.40" TipoDeComprobante="I" Exportacion="01" MetodoPago="PUE" LugarExpedicion="76180">
+  <cfdi:Emisor Rfc="LPA130909MNA" Nombre="LIMPIEZA PROFESIONAL ARBOLEDA" RegimenFiscal="601"/>
+  <cfdi:Receptor Rfc="DCA180305KQ6" Nombre="DISTRIBUIDORA CERRO AZUL" DomicilioFiscalReceptor="76000" RegimenFiscalReceptor="601" UsoCFDI="G03"/>
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="47131800" Cantidad="2" ClaveUnidad="H87" Unidad="Pieza" Descripcion="Detergente líquido multiusos, garrafa de 20 litros" ValorUnitario="389.00" Importe="778.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="778.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="124.48"/>
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="47131810" Cantidad="2" ClaveUnidad="H87" Unidad="Pieza" Descripcion="Cloro, garrafa de 20 litros" ValorUnitario="214.50" Importe="429.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="429.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="68.64"/>
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="47121701" Cantidad="5" ClaveUnidad="H87" Unidad="Pieza" Descripcion="Bolsa para basura jumbo, paquete con 100" ValorUnitario="96.80" Importe="484.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="484.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="77.44"/>
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="14111704" Cantidad="2" ClaveUnidad="H87" Unidad="Pieza" Descripcion="Papel higiénico institucional, caja con 48 rollos" ValorUnitario="612.00" Importe="1224.00" ObjetoImp="02">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="1224.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="195.84"/>
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="466.40">
+    <cfdi:Traslados>
+      <cfdi:Traslado Base="2915.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="466.40"/>
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" UUID="065D9644-1ACF-4410-B9AE-C5C0DC008C41" FechaTimbrado="2026-09-21T10:17:29" RfcProvCertif="PFT150818RT4" SelloCFD="IQUFmLUDVPbQyUPpA6Tfwmuuvu6ObvQ4AFVihCVsHvtrDvZEw2xLWOYURIqE6WFsOIWPT3ddlqSQDCOUlkkvMzSJgabc9TGCKoKIj2vujnhcR5qnFmPATISdsVK580YCuSfWdWd40SJ+eIblXeQ1A2JQPGV/KJiYtyljGZYVJYnk0Uc+WNwBrzEYTx+qbxBaDLLkzrQZEFySU10i54LvFp0RXMTeHDB7g2Um7nUtOAUvcDF2sgoN/CoZm+jU5vd0atHMdhE33KV8clAWNnNUxxRsBjTFvCTcg6sMfmaELFyBwbZobx0jYDeX67RDPBprHdfCdgHIBXXa8B7cYO/o+w==" NoCertificadoSAT="89897911138129520831" SelloSAT="JzU0Xc/1TDv+7M7/nmRK1+0iF0JcrnqLfDpGwpP2M62syscbASq/xs7zcw05JXtRkJw/9Khc7oLZ6jgG1qg1MaBlXaULMBoAFJHdaOIcZa00nmrYp1SPT9BuyYHTWaU1bbEAmrAILMw4HIheYMqbeZjO42HklwcMtxb74qnBAdA+JIz1gcWteC7WLm/gkaxOCQL81+yd9buGtm6i2HUvTW1q7xEU3lBLYeysxnSbwk+lBA8aFpjZHmlBUCjKSOpEJguyOzu6fjiJWnTJklzyKdd0yR/HoPhzRCMRr4olcuE8x127Bj5dRED4bKCduErpB7Cmn+S64ZIma1qGb/JsWg=="/>
+  </cfdi:Complemento>
+</cfdi:Comprobante>
