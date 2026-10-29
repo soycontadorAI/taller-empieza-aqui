@@ -21,21 +21,26 @@ es el orden en que se usa.
 | # | Archivo | Qué es |
 |---|---|---|
 | 1 | [Los prompts del taller](1-prompts-del-taller.pdf) | Los trece, en el orden en que los usamos, con para qué sirve cada uno. |
-| 2 | [Las instrucciones de tu proyecto](2-instrucciones-de-tu-proyecto.txt) | Para pegar en un proyecto de Claude y que te conteste como el contador de tu despacho. |
+| 2 | [Las instrucciones de tu proyecto](2-instrucciones-de-tu-proyecto.txt) y [la ley de tu proyecto](2-ley-para-tu-proyecto.pdf) | Las instrucciones se pegan en un proyecto de Claude para que te conteste como el contador de tu despacho. La ley (los artículos del taller, con el texto vigente) se sube a su conocimiento, para que cite de ahí y no de memoria. |
 | 3 | [Qué nunca se sube](3-que-nunca-se-sube.pdf) | Una hoja, en semáforo: qué datos de un cliente sí, cuáles con cuidado y cuáles nunca. |
 | 4 | [El lote de XML de septiembre](4-lote-xml-septiembre/) | Dieciocho CFDI 4.0 de gastos de una empresa ficticia. Un lote real casi nunca viene limpio, y este tampoco. Viene también [en un solo archivo](4-lote-en-un-solo-archivo.txt), por si Claude no te acepta los .xml. |
 | 5 | [El estado de cuenta de septiembre](5-estado-de-cuenta-septiembre.pdf) | De la misma empresa, para conciliar los cargos contra el lote. |
 | 6 | [La biblioteca de prompts](6-biblioteca-de-prompts.pdf) | Veinte prompts para el despacho, en cinco áreas. |
 | 7 | [El plan de 7 días](7-plan-de-7-dias.pdf) | Quince minutos al día para que esto se quede. |
-| 8 | La guía de 5 prompts para auditar tus XML | Gratis, te llega al correo desde [soycontador.ai/audita](https://soycontador.ai/audita?utm_source=github&utm_medium=referral&utm_campaign=kit-empieza). |
+| 8 | [La skill para revisar tu lote](8-skill-revisa-lote-cfdi.zip) | Los prompts 7 a 9 convertidos en una skill de Claude: la subes una vez y la usa sola en cualquier proyecto cuando le subes XML de CFDI. [Aquí la puedes leer](8-skill-revisa-lote-cfdi.md) antes de subirla. |
+| 9 | La guía de 5 prompts para auditar tus XML | Gratis, te llega al correo desde [soycontador.ai/audita](https://soycontador.ai/audita?utm_source=github&utm_medium=referral&utm_campaign=kit-empieza). |
 
 ## Por dónde empezar
 
 - **Si tomaste el taller:** pega las instrucciones del archivo 2 en tu
-  proyecto de Claude, si no lo hiciste en vivo, y al día siguiente arranca el
-  plan de 7 días.
+  proyecto de Claude y súbele la ley, si no lo hiciste en vivo, y al día
+  siguiente arranca el plan de 7 días.
+- **Para revisar el lote de cada cliente sin pegar prompts:** sube la skill
+  del archivo 8. En Claude: Personalizar, Skills, el botón de más, “Subir una
+  skill”, eliges el zip y la enciendes. Necesita encendida la ejecución de
+  código y creación de archivos (Configuración, Capacidades).
 - **Si no lo tomaste:** crea un proyecto en Claude con las instrucciones del
-  archivo 2. Luego abre un chat dentro del proyecto, sube el lote de la
+  archivo 2 y súbele la ley del mismo archivo 2 a su conocimiento. Luego abre un chat dentro del proyecto, sube el lote de la
   carpeta 4 y sigue los prompts P7 a P10 del archivo 1. Antes de subir
   cualquier cosa de un cliente real, lee el archivo 3.
 
